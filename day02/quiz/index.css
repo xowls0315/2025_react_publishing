@@ -1,0 +1,41 @@
+.button1 {
+  color: gray;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button2 {
+  color: white;
+  background-color: #ff7479;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button3 {
+  color: black;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button3 > i {
+  color: #ff7479;
+  margin-right: 10px;
+}
+
+.button4 {
+  color: black;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button4 > i {
+  margin-right: 10px;
+}

@@ -1,0 +1,42 @@
+.logo {
+  color: skyblue;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin-top: 200px;
+}
+
+.logo2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.logo3 {
+  color: #efefef;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.app {
+  color: #262b41;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #bbbbbb;
+  padding: 5px 100px;
+  font-weight: bold;
+}
+
+.google {
+  color: white;
+  background-color: #262b41;
+  border-radius: 5px;
+  border: 2px solid #bbbbbb;
+  padding: 5px 90px;
+  font-weight: bold;
+}
