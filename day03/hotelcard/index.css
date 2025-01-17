@@ -1,0 +1,65 @@
+.card1 {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-right: 15px;
+  border: none;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8MTF8fGhvdGVsfGVufDB8fHx8MTczNzA3NTM2MHww&ixlib=rb-4.0.3&q=80&w=400);
+  background-size: cover;
+  color: white;
+}
+.basic1 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.basic2 {
+  margin: 7px 0px;
+  font-size: 25px;
+}
+.basic3 {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.card2 {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-right: 15px;
+  border: none;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1512917774080-9991f1c4c750?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8Mnx8ZnVsbCUyMHZpbGxhfGVufDB8fHx8MTczNzExNDgyOHww&ixlib=rb-4.0.3&q=80&w=400);
+  background-size: cover;
+  color: white;
+}
+
+.card3 {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-right: 15px;
+  border: none;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8MTV8fDVzdGFyJTIwaG90ZWx8ZW58MHx8fHwxNzM3MTE0OTg3fDA&ixlib=rb-4.0.3&q=80&w=400);
+  background-size: cover;
+  color: white;
+}
+
+.card4 {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-right: 15px;
+  border: none;
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1573052905904-34ad8c27f0cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8Mzd8fDVzdGFyJTIwaG90ZWx8ZW58MHx8fHwxNzM3MTE0OTg4fDA&ixlib=rb-4.0.3&q=80&w=400);
+  background-size: cover;
+  color: white;
+}

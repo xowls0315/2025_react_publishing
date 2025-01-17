@@ -1,0 +1,60 @@
+.btn {
+  color: orange;
+  background-color: transparent;
+  border: 1px solid orange;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 80px 0px 10px 10px;
+}
+
+.basic {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px 10px 10px;
+}
+
+.basic2 {
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 70px 0px 10px 10px;
+}
+
+.card1 {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-right: 15px;
+  border: none;
+  width: 300px;
+  height: 430px;
+  border-radius: 30px;
+  background-image: url("https://pixabay.com/get/g254733896337e058933aecfc1a522889b09e626118e059e36738af056e25ffcbb415e5458d2991ea2da08db129417783bbec58b323ac9a99bc0010c98cee354d_640.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.card2 {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-right: 15px;
+  border: none;
+  width: 300px;
+  height: 430px;
+  border-radius: 30px;
+  background-image: url("https://pixabay.com/get/g6bfd38a66f5cf218d3ed2f11887534bb84b31d13eb2720a04a15faf2489b59f66041b9cba092c7409d76a5f51deb9294_640.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.card3 {
+  display: inline-block;
+  padding: 15px 20px;
+  margin-right: 15px;
+  border: none;
+  width: 300px;
+  height: 430px;
+  border-radius: 30px;
+  background-image: url("https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8MTV8fDVzdGFyJTIwaG90ZWx8ZW58MHx8fHwxNzM3MTE0OTg3fDA&ixlib=rb-4.0.3&q=80&w=400");
+  background-size: cover;
+  color: white;
+}
