@@ -1,0 +1,26 @@
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.photo {
+  display: inline-block;
+}
+
+.container {
+  display: inline-block;
+}
+
+.place {
+  margin: 10px 0px;
+}
+
+.photo img {
+  display: inline-block;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
