@@ -1,0 +1,25 @@
+.title {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 50px;
+  position: relative;
+}
+.title::after {
+  content: " ";
+  width: 3px;
+  height: 30px;
+  background-color: gold;
+  position: absolute;
+  right: -30px;
+  transform: rotate(45deg);
+}
+.title::before {
+  content: " ";
+  width: 3px;
+  height: 30px;
+  background-color: gold;
+  position: absolute;
+  left: -30px;
+  transform: rotate(-45deg);
+}

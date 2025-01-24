@@ -1,0 +1,15 @@
+.box {
+  display: inline-block;
+  width: 250px;
+  padding: 20px 0px;
+  color: white;
+  background-color: gray;
+  text-align: center;
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+.box:hover {
+  background-color: white;
+  color: gray;
+  transform: scale(1.05);
+}
