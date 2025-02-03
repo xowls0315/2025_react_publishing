@@ -1,0 +1,23 @@
+section {
+  width: 100vw;
+  height: 100vh;
+}
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1506383631675-0b110111327b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8Mjl8fGRhcmt8ZW58MHx8fHwxNzM4NDgyNzkyfDA&ixlib=rb-4.0.3&q=80&w=400");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+  font-size: 60px;
+  font-family: "Jua", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.5;
+}
