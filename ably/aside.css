@@ -16,3 +16,16 @@ aside > .recruit {
   background-color: #db3b57;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1500px) {
+  aisde {
+    right: 0px;
+    bottom: 20px;
+    width: 100vw;
+    padding: 0 10px;
+  }
+  aside > .recruit {
+    /* width: 80vw; */
+    width: 100%;
+  }
+}

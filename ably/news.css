@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 1040px;
   margin: 0 auto;
+  padding: 300px 0;
 }
 .news > .contents > h6 {
   font-size: 25px;

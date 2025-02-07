@@ -1,0 +1,32 @@
+/* body {
+  height: 100vh;
+  background-color: skyblue;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: pink;
+  }
+} */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: pink;
+  }
+}

@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1040px;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 100px 0;
 }
 .business > .contents > h6 {
   font-size: 25px;
@@ -12,12 +12,13 @@
 .business > .contents > h2 {
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .business > .contents > article {
   width: 100%;
   display: flex;
+
   gap: 50px;
 }
 .business > .contents > article > .card {
@@ -25,19 +26,23 @@
 }
 .business > .contents > article > .card > .album {
   width: 100%;
-  height: 500px;
-  margin-bottom: 10px;
+  height: 400px;
+  margin-bottom: 20px;
+  overflow: hidden;
 }
 .business > .contents > article > .card > .album > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  transition: all 0.5s;
+}
+.business > .contents > article > .card > .album > img:hover {
+  transform: scale(1.05);
 }
 .business > .contents > article > .card > p {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
   line-height: 1.3;
   margin-bottom: 20px;
 }
@@ -47,12 +52,13 @@
   font-weight: 500;
 }
 
-.business > .block {
+.business > .contents > .block {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 70px;
 }
-.business > .block > .more {
+.business > .contents > .block > .more {
   width: fit-content;
   padding: 20px 150px;
   border: none;
@@ -61,8 +67,11 @@
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 50px;
 }
-.business > .block > .more:hover {
+.business > .contents > .block > .more:hover {
   background-color: #ffe5dc;
+}
+
+.business {
+  margin-bottom: 100px;
 }

@@ -18,6 +18,7 @@ header > nav > ul {
   gap: 10px;
 }
 header > nav > ul > li {
+  font-size: 18px;
   font-weight: bold;
   padding: 14px 16px;
   border-radius: 20px;
@@ -29,4 +30,16 @@ header > nav > ul > li:hover {
 
 .ably {
   color: #ff5160;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    max-width: 340px;
+  }
+  header > nav > ul {
+    display: none;
+  }
+  header > nav > .hamburger {
+    display: block;
+  }
 }
