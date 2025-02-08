@@ -18,10 +18,10 @@ aside > .recruit {
 }
 
 @media screen and (max-width: 1500px) {
-  aisde {
+  aside {
     right: 0px;
     bottom: 20px;
-    width: 100vw;
+    width: 90vw;
     padding: 0 10px;
   }
   aside > .recruit {

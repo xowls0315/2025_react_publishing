@@ -28,11 +28,15 @@ header > nav > ul > li:hover {
   cursor: pointer;
 }
 
+header > nav > .hamburger {
+  display: none;
+}
+
 .ably {
   color: #ff5160;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1000px) {
   nav {
     max-width: 340px;
   }
