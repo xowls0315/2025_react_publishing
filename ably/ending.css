@@ -29,3 +29,18 @@
   font-size: 22px;
   color: #757575;
 }
+
+@media screen and (max-width: 1000px) {
+  .ending > .contents {
+    max-width: 340px;
+  }
+  .ending > .contents > .album {
+    height: 240px;
+  }
+  .ending > .contents > .text > h2 {
+    font-size: 25px;
+  }
+  .ending > .contents > .text > span {
+    font-size: 18px;
+  }
+}

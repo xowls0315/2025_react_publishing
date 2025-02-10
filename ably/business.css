@@ -75,3 +75,31 @@
 .business {
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 1000px) {
+  .business > .contents {
+    max-width: 340px;
+  }
+  .business > .contents > h6 {
+    font-size: 15px;
+  }
+  .business > .contents > h2 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .business > .contents > article {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .business > .contents > article > .card > p {
+    font-size: 20px;
+  }
+  .business > .contents > article > .card > span {
+    font-size: 15px;
+  }
+
+  .business > .contents > .block > .more {
+    font-size: 15px;
+  }
+}

@@ -17,15 +17,14 @@ aside > .recruit {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
   aside {
     right: 0px;
-    bottom: 20px;
+    bottom: 0px;
     width: 90vw;
-    padding: 0 10px;
   }
   aside > .recruit {
     /* width: 80vw; */
-    width: 100%;
+    width: 90%;
   }
 }

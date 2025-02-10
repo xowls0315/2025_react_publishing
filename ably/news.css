@@ -55,3 +55,28 @@
 .news > .contents > article > .more:hover {
   background-color: #ffe5dc;
 }
+
+@media screen and (max-width: 1000px) {
+  .news > .contents {
+    max-width: 340px;
+  }
+  .news > .contents > h6 {
+    font-size: 15px;
+  }
+  .news > .contents > h2 {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  .news > .contents > article > .newsCard > h2 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .news > .contents > article > .newsCard > time {
+    font-size: 15px;
+  }
+
+  .news > .contents > article > .more {
+    font-size: 15px;
+  }
+}

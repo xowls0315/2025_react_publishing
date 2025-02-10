@@ -46,4 +46,7 @@ header > nav > .hamburger {
   header > nav > .hamburger {
     display: block;
   }
+  header > nav > .hamburger:hover {
+    cursor: pointer;
+  }
 }
