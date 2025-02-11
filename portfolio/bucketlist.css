@@ -1,42 +1,43 @@
-.work {
+.bucketlist {
   width: 100vw;
 }
-.work > article {
+.bucketlist > article {
   width: 100%;
   max-width: 1040px;
   margin: 0 auto;
-  padding: 100px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.work > article > .work__logo {
+.bucketlist > article > .bucketlist__logo {
   font-size: 45px;
   color: #957468;
 }
-.work > article > .work__grid {
+.bucketlist > article > .bucketlist__grid {
   width: 100%;
-  height: 30vw;
+  height: 40vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   margin: 100px 0px;
 }
-.work > article > .work__grid > .card {
+.bucketlist > article > .bucketlist__grid > .card {
   width: 100%;
-  height: 50%;
+  height: 100%;
   position: relative;
   overflow: hidden;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(119, 87, 0, 0.3) 0px 0px 0px 3px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
-.work > article > .work__grid > .card > img {
-  width: 80%;
-  height: 80%;
-  object-fit: contain;
+.bucketlist > article > .bucketlist__grid > .card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 @-webkit-keyframes slide-bottom {
   0% {
@@ -62,7 +63,7 @@
     opacity: 0.8;
   }
 }
-.work > article > .work__grid > .card > i {
+.bucketlist > article > .bucketlist__grid > .card > i {
   width: 100%;
   height: 100%;
   font-size: 100px;
@@ -71,7 +72,7 @@
   align-items: center;
   color: #957468;
 }
-.work > article > .work__grid > .card > .hover-card {
+.bucketlist > article > .bucketlist__grid > .card > .hover-card {
   background-color: #957468;
   position: absolute;
   top: 0;
@@ -80,13 +81,15 @@
   height: 100%;
   opacity: 0;
 }
-.work > article > .work__grid > .card > .hover-card > .card__title {
-  font-size: 25px;
+.bucketlist > article > .bucketlist__grid > .card > .hover-card > .card__title {
+  font-size: 35px;
   margin: 20px 10px;
+  color: white;
 }
-.work > article > .work__grid > .card > .hover-card > .card__info {
-  font-size: 18px;
+.bucketlist > article > .bucketlist__grid > .card > .hover-card > .card__info {
+  font-size: 20px;
   margin: 20px 10px;
+  color: white;
 }
 .card:hover .hover-card {
   -webkit-animation: slide-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
